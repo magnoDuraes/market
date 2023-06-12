@@ -1,6 +1,7 @@
 from estoque import *
 def funcionalidade1():
     print("-------- COMPRAS --------\n")
+    print("teste")
     
     input("Digite o item que você procura: ")
 def funcionalidade2():
