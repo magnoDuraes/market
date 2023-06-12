@@ -3,7 +3,7 @@ from funcionalidades import *
 import os
 
 #======Aqui eu defino Quanto de dinheiro o Usuário da pessoa Terá disponível.======
-salario = input("Digite Quanto de saldo seu personagem terá: R$ ").strip() 
+salario = input("Digite Quanto de saldo seu personagem terá: R$").strip() 
 salario = saldo(float(salario))
 os.system('cls')
 #==================================================================================
